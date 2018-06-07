@@ -1,39 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 	<title>Yuugle</title>
 	<meta charset="UTF-8">
-	<link rel = "stylesheet" type="text/css" href="./reset.css">
-	<link rel = "stylesheet" type = "text/css" href = "./styles.css">
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-	<div class="navigation"><table>
-		<tr><a href = "#">Gmail</a></tr>
-		<tr><a href = "#">Images</a></tr>
-		<tr id = "settings"><a href = "#"></a></tr>
-		<tr id = "notifications"><a href = "#"></a></tr>
-		<tr id = "sign"><a href = "#"></a></tr>
-	</table></div>
-	<img src="./images/logo.gif" alt="Google Logo">
+	<table class="toolbar">
+		<tbody><tr><th><a href="#">Gmail</a></th>
+		<th><a href="#">images
+</a></th>
+		<th id="settings"><a href="#"><img src="images
+	/index.png" style="width:30px;height:30px;"></a></th>
+		<th id="notifications"><a href="#"><img src="images
+	/notification.png" style="width:30px;height:30px;"></a></th>
+		<th id="sign"><a href="#"><img src="images
+	/symbol.png" style="width:30px;height:30px;"></a></th></tr>
+	</tbody></table>
+	<img id="logo" src="images/logo.gif" alt="Google Logo">
 	<form action="#">
-		<input type="text" name="query">
-		<input type="submit" value="Google Search">
-		<input type="submit" value="I'm Feetrng Lucky">
+		<input name="query" style="width: 580px;padding: 12px 10px;font-size: 14px;" type="text"><br>
+		<input value="Google Search" style="margin-left: 40%;padding: 10px;margin-right: 40px;margin-top: 20px;" type="submit">
+		<input style="padding: 10px;" value="I'm Feeling Lucky" type="submit">
 	</form>
-	<p> 
-		Google offered in : <a href = "#">Engtrsh</a> <a href = "#">हिंदी </a><a href = "#">Le Français</a> <a href = "#">日本</a>
+	<p style="margin-left: 35%;font-size: 17px;"> 
+		Google offered in : <a href="#">English  </a> <a href="#">हिंदी   </a><a href="#">Le Français  </a> <a href="#">日本</a>
 	</p>
-	<p><div class="footer-1">India</div></p>
-	<table><div class="footer-2-left">
-		<tr><a href = "#">Advertising</a></tr>
-		<tr><a href = "#">Business</a></tr>
-		<tr><a href = "#">About</a></tr>
-	</div></table>
-	<table><div class="footer-2-right">
-		<tr><a href = "#">Privacy</a></tr>
-		<tr><a href = "#">Terms</a></tr>
-		<tr><a href = "#">Settings</a></tr>
-	</div></table>
+	<p class="footer-1" style="position: fixed;left: 5px;bottom: 45px;font-size: 18px;font-family: Arial;color: gray;padding: 0px 10px;width: 100%;/*! background-color: lavender; */">India</p>
+	<table class="footer-2-left" style="position: fixed;left: 5px;bottom: 5px;">
+		<tbody><tr><th><a href="#">Advertising</a></th>
+		<th><a href="#">Business</a></th>
+		<th><a href="#">About</a></th></tr>
+	</tbody></table>
+	<table div="" class="footer-2-right" style="position: fixed;right: 5px;bottom: 5px;">
+		<tbody><tr><th><a href="#">Privacy</a></th>
+		<th><a href="#">Terms</a></th>
+		<th><a href="#">Settings</a></th></tr>
+	</tbody></table>
 
-	</body>
-	</html>
+	
+	
+<style type="text/css"></style></body></html>
